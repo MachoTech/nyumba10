@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 35rem;
+  position: relative;
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+.topMenu{
+	width: 100%;
+	height:60px;
+	background:#cdcdcd;
+}
+.banner{
+	width: 100%;
+	height:400px;
+	background:url("img/num1.jpg") no-repeat;
+	background-size: cover;
+    clear: both;
+	
+}
+h1{
+	color: #ffffff;
+	font-size: 40px;
+}
+.recent{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: start;
+	justify-content: space-around;
+}
+
+.housebox{
+
+	width: 300px;
+	height: 200px;
+	border:1px dashed cyan;
+	margin-top: 14px;
+	
+}
+.banner .right{
+	
+margin-left: 2px;
+}
+.banner .left{
+	
+	
+
+}
+
+#bannerTitle{
+	width: 250px;
+	height: 250px;
+	margin-left: 600px;
+
+	
+
+}
+
+ .cyan{
+	background-color: cyan;
+	border:none;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	
+}
+.modalContainer{
+	position: fixed;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	opacity: 0;
+	visibility: hidden;
+	transform: scale3d(1:1);
+	transition: visibility 0s linear 0.25s 0s, transform 0.25s;
+}
+
+#modalContent{
+
+            position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem 1.5rem;
+        width: 24rem;
+        border-radius: 0.5rem;
+}
+
+.close{
+        float: right;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        background-color: lightgray;
+    }
+
+    .close:hover {
+        background-color: darkgray;
+    }
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+    }
+
+    .send{
+	width: 100%;
+	
+	background:#4c52b7;
+	margin-top: 20px;
+	border-radius: 10px;
+	border:none;
+
+}
+.contholder{
+	width: 100%;
+	height: 100%;
+
+}
+
+.contholder>input{
+	width: 100%;
+	height: 40px;
+	border-radius: 8px;
+	border:1px solid cyan;
+	margin-top: 20px;
+	text-align: center;
+}
+.contholder #message{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+
+}
+
+.modTitle h1{
+	font-family: serif;
+	color: #2eafaf;
+}
+.contholder #message{
+
+}
