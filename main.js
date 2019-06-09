@@ -1,5 +1,6 @@
 
 var butnModal = document.querySelector(".cyan");
+var houseBox = document.querySelector(".housebox");
 var modal =document.querySelector(".modalContainer"); 
 var btnClose = document.querySelector(".close");
 
@@ -14,6 +15,8 @@ function windowOnClick(event){
 }
 
 
+houseBox.addEventListener("click", toggleModal);
 butnModal.addEventListener("click", toggleModal);
+
 btnClose.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
